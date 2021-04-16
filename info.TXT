@@ -1,0 +1,56 @@
+
+method-override: https://www.npmjs.com/package/method-override#override-using-a-query-value
+path.join- https://www.udemy.com/course/the-web-developer-bootcamp/learn/#questions/12949678
+req.user- this is made by passport , it has all the data ie. username, email etc. it comes form session
+
+//-----------------------------------------------------------------//
+
+
+cloudinary-store images online after taking from user.
+
+controllers-the codes for get post update delete route for the webpages. makes the routes page cleaner
+
+model
+	campground- structure of hotelschema, 
+		has a array of object ids called review, middleware for deleting reviews of a deleted campground
+	review- structure of a review
+	user- user module with passport.org which helps in authenthiciation
+public
+	javascripts- clusterMap- the map javasc
+		     validateForms- bootstrap validation
+	stylesheets- the rewier stars here too
+
+routes
+	campground- has all the data of routes(get post put delete) for request to /hotels/......
+	reviews- " for reviews
+	users- register,login,logout
+
+seeds
+	cities-data
+	index-to insert random data
+	seedHelper- data
+
+utils
+	catchAsync- just a function to catch error from get post etc
+	ExpressError- make error with a message and status code
+
+VIEWS
+	hotels
+		edit- edit a campground
+		index- view all hotels
+		new- make new campground
+		show- show 1 campground
+	
+	layout- a basic boilerplate for all webpages, validation bootstrap js
+
+	partials- footer and navbar code, 
+		  flash alert structure
+	users-login and register pages
+
+	error- page to display when error happens
+	home- home page
+
+middleware- checks if the user is logged in and stores the page in session 
+
+schemas- validation , required stuff for input 
+	
